@@ -1,10 +1,10 @@
 Company Database Management System (CLI)
 
-📝 Overview of the Project
+# Overview of the Project
 
 This is a comprehensive command-line interface (CLI) application built using Python and the built-in sqlite3 library. The system is designed to manage employee data across three distinct organizational categories: General Employees, the Managing Committee, and Maintenance Staff. It provides a simple, menu-driven interface for administrators to perform essential database operations (CRUD - Create, Read, Update, Delete) and handle specific promotions for each staff type, ensuring organized and efficient record-keeping. The database file used is mydatabase.db.
 
-✨ Features
+# Features
 
 This application offers the following key functionalities:
 
@@ -20,7 +20,7 @@ Promote Staff: Update a staff member's role.
 
 Input Validation: Includes basic error handling for non-numeric input for salaries/IDs and prevents the creation of records with duplicate primary keys.
 
-🛠️ Technologies/Tools Used
+# Technologies/Tools Used
 
 Tool/Library
 
@@ -34,7 +34,7 @@ sqlite3
 
 Standard Python library for interacting with the internal SQLite database (mydatabase.db).
 
-🚀 Steps to Install & Run the Project
+# Steps to Install & Run the Project
 
 Prerequisites
 
@@ -57,7 +57,7 @@ python main.py
 
 The application will start, create the necessary database tables (if they don't exist), and present the main menu. Follow the on-screen prompts to interact with the system.
 
-✅ Instructions for Testing
+# Instructions for Testing
 
 To ensure the system is working correctly across all modules, perform the following manual tests:
 
